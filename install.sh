@@ -15,6 +15,7 @@ link_file() {
 }
 
 link_file ~/config/.gitignore_global ~/.gitignore_global
+link_file ~/config/.gitconfig ~/.gitconfig
 
 curl https://raw.githubusercontent.com/Chun-Yang/vim-config/master/install.sh | sh
 curl https://raw.githubusercontent.com/Chun-Yang/zsh-config/master/install.sh | sh
